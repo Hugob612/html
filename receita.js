@@ -11,3 +11,12 @@ const ingredientes = [
 ingredientes.forEach(ingrediente => {
     console.log(ingrediente)    
 });
+ for (i = 0; i < ingredientes.length; i++){
+    console.log(ingredientes[i]);
+ }
+ var controle = 0;
+
+ while (controle < ingredientes.length) {
+    controle++;
+    console.log(ingredientes[controle]);
+ }
